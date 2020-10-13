@@ -1,7 +1,7 @@
 package EDC1;
 
 public class Terre2 extends Thread{
-	private int age,id,n;
+	private int age,id;
 	
 	
 	public Terre2(int id, int age) {
@@ -12,24 +12,9 @@ public class Terre2 extends Thread{
 	@Override
 	public void run() {
     	Terre g = Terre.getInstence();
-		g.creer2(id,age,n);
-		g.ajouter2(id,age,n);
+		g.creer(id,age);
+		g.ajouter(id,age);
 		g.afficher(id,age);
 	}
-	
-	
 }
-	
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
+			
