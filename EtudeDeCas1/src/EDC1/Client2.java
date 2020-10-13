@@ -15,7 +15,5 @@ public class Client2 {
 			Terre2 b=new Terre2(id,age); 
         	b.start();
 		}
-
 }
 }
-
