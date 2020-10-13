@@ -20,12 +20,6 @@ public class Client {
 
 			Terre a=Terre.getInstence();
 			a.afficher(id,age);
-	
 		}
-		    
-		
-
-
 	}
-
 }
